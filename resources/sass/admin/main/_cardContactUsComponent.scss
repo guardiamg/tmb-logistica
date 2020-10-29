@@ -1,0 +1,13 @@
+#card-contact-us{
+	margin-top: 3rem;
+	h2{
+		color: $color_title;
+		span{
+			font-size: 24px;
+		}
+	}
+	a{
+		background-color: $color_orange;
+		color: $color_white;
+	}
+}

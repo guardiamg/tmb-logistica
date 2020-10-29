@@ -1,0 +1,134 @@
+header .contenedor-header {
+  border-bottom: 2px solid #ef6224 !important;
+}
+
+#shipment-tracking {
+  margin-top: 3rem;
+}
+
+#shipment-tracking h2 {
+  font-weight: bold;
+  color: #44484d;
+}
+
+#shipment-tracking a {
+  color: #ef6224;
+}
+
+#form-shipment-tracking {
+  margin-top: 3rem;
+  background-color: #ef6224;
+  height: 200px;
+}
+
+#form-shipment-tracking h2 {
+  margin-top: 5px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+#form-shipment-tracking form {
+  text-align: center;
+}
+
+#form-shipment-tracking form button {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 575px) {
+  #form-shipment-tracking {
+    height: 120px;
+  }
+
+  #form-shipment-tracking h2 {
+    margin-top: 5px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5rem;
+  }
+}
+
+#card-schedule-withdrawal {
+  margin-top: 3rem;
+}
+
+#card-schedule-withdrawal h2 {
+  color: #44484d;
+}
+
+#card-schedule-withdrawal h2 span {
+  color: #abcbcd;
+  font-size: 24px;
+}
+
+#card-schedule-withdrawal a {
+  background-color: #ef6224;
+  color: #ffffff;
+}
+
+#card-contact-us {
+  margin-top: 3rem;
+}
+
+#card-contact-us h2 {
+  color: #44484d;
+}
+
+#card-contact-us h2 span {
+  font-size: 24px;
+}
+
+#card-contact-us a {
+  background-color: #ef6224;
+  color: #ffffff;
+}
+
+footer {
+  background-color: #222222;
+  margin-top: 3rem;
+  padding-top: 3rem;
+  height: 450px;
+}
+
+footer .title_li {
+  color: #ffffff;
+}
+
+footer a {
+  color: #ef6224;
+}
+
+footer a:hover {
+  color: #ef6224;
+}
+
+footer .fa-facebook-f,
+footer .fa-twitter,
+footer .fa-linkedin-in {
+  font-size: 30px;
+  margin-right: 1.5rem;
+}
+
+footer .information,
+footer .social,
+footer .politicas {
+  margin-top: 2rem;
+}
+
+footer .politicas p {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    height: 255px;
+  }
+
+  footer .information,
+  footer .social {
+    margin-top: 0;
+  }
+}
+

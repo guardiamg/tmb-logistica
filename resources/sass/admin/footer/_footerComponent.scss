@@ -1,0 +1,36 @@
+footer{
+	background-color: $color_footer;
+	margin-top: 3rem;
+	padding-top: 3rem;
+	height: 450px;
+	.title_li{
+		color: $color_white;
+	}
+	a{
+		color: $color_orange;
+		&:hover{
+			color: $color_orange;
+		}
+	}
+	.fa-facebook-f, .fa-twitter, .fa-linkedin-in{
+		font-size: 30px;
+		margin-right: 1.5rem
+	}
+	.information, .social, .politicas{
+		margin-top: 2rem;
+	}
+	.politicas{
+		p{
+			text-align: center;
+		}
+	}
+}
+
+@media screen and (min-width: 768px){
+	footer{
+		height: 255px;
+		.information, .social{
+			margin-top: 0;
+		}
+	}
+}

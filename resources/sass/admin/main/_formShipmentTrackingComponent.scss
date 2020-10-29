@@ -1,0 +1,30 @@
+#form-shipment-tracking{
+	margin-top: 3rem;
+	background-color: $color_orange;
+	height: 200px;
+	h2{
+		margin-top: 5px;
+		text-align: center;
+		color: $color_white;
+		font-size: 1rem;
+	}
+	form{
+		text-align: center;
+		button{
+			color: $color_white;
+			font-size: 16px
+		}
+	}
+}
+
+@media screen and (min-width: 575px){
+	#form-shipment-tracking{
+		height: 120px;
+		h2{
+			margin-top: 5px;
+			text-align: center;
+			color: $color_white;
+			font-size: 1.5rem;
+		}
+	}
+}
